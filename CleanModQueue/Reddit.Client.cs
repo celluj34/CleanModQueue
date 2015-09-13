@@ -108,7 +108,7 @@ namespace Dino.Reddit
             reportedUsers = new List<String>();
             checkedUserCache = new Dictionary<String, bool>();
             // avoid the "too many delimiter characters"
-            System.Net.Http.Formatting.MediaTypeFormatter.SkipStreamLimitChecks = true;
+            //System.Net.Http.Formatting.MediaTypeFormatter.SkipStreamLimitChecks = true;
             handler = new HttpClientHandler
             {
                 UseCookies = true,

@@ -108,7 +108,6 @@
     <EmbeddedResource Include="SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="packages.config" />
     <None Include="Properties\DataSources\AuditLog.datasource" />
     <None Include="Properties\DataSources\Reddit.OnePost.datasource" />
     <None Include="Properties\DataSources\Reddit.OnePostData.datasource" />
